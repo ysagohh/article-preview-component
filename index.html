@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ysagohh/article-preview-component/refs/heads/main/images/preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="outer-container">
+    <div class="container">
+      <div><img id="display" src="./images/drawers.jpg" alt="Green drawers with white picture frames and a dried leaf decor on top"/></div>
+      <main class="text-block">
+        <div class="article">
+          <h1 class="headline">
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+          </h1>
+          <p class="description">
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+          </p>
+        </div>
+        <div class="byline">
+          <img class="avatar" src="./images/avatar-michelle.jpg" alt="A white woman with brown hair in her 20s" />
+          <div>
+            <p class="name"><strong>Michelle Appleton</strong></p>
+            <p class="date">28 Jun 2020</p>
+          </div>
+          <div class="icon" id="share-icon"><img id="share" src="./images/icon-share.svg" alt="share icon" /></div>
+        </div>
+      </main>
+      <div id="social-links" class="hidden">
+        <p>Share</p>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img class="social-icon" src="./images/icon-facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://x.com/" target="_blank">
+          <img class="social-icon" src="./images/icon-twitter.svg" alt="X (formerly Twitter)" />
+        </a>
+        <a href="https://www.pinterest.com/" target="_blank">
+          <img class="social-icon" src="./images/icon-pinterest.svg" alt="Pinterest" />
+        </a>
+        <div id="triangle"></div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ysagohh" target="_blank">Ysa Gohh</a>.
+  </footer>
+</body>
+</html>
