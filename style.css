@@ -165,29 +165,30 @@ footer {
         grid-template-rows: 15em 1fr;
         max-width: 30em;
     }
-
+    
     img#display {
         max-height: 20em;
         object-position: 0 30%;
     }
-
+    
     .text-block {
         padding: 3em 2.5em 1.5em;
     }
-
+    
     h1 {
         font-size: 1.3em;
         margin-bottom: 1rem;
     }
-
+    
     .outer-container {
+        margin: 3em auto;
         position: static;
     }
-
+    
     .container {
         position: relative;
     }
-
+    
     #social-links {
         position: absolute;
         width: 100%;
@@ -198,20 +199,33 @@ footer {
         justify-content: start;
         padding: 1em 2.5em 1.3em;
     }
-
+    
     #social-links p {
         font-size: 1em;
     }
-
+    
     #share-icon {
         z-index: 1;
     }
-
+    
     .social-icon {
         height: 1.4em;
     }
-
+    
     #triangle {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #social-links {
+        height: 8em;
+        grid-template-columns: auto auto 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: start;
+    }
+
+    #social-links p {
+        grid-column: 1 / -1;
     }
 }
